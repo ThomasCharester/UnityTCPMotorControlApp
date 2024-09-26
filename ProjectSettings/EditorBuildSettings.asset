@@ -9,4 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/StepEngineApp.unity
     guid: d4a4886e03deb6541a5376307ee088d9
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 1ee1e4c4ec9925847b060b1a3d509c07, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 8b7e905e296ac2c46b4b8c3e77a62649, type: 2}

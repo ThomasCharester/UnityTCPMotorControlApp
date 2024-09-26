@@ -107,7 +107,7 @@ public class EspRecieveSender : MonoBehaviour
                         // Convert byte array to string message.
                         string serverMessage = Encoding.UTF8.GetString(incomingData);
                         Debug.Log("Server message received: " + serverMessage);
-
+                        
                         GetDataFromServerEvent.Invoke(serverMessage);
                     }
                 }
